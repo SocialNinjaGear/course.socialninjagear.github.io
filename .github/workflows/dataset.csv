@@ -1,0 +1,4 @@
+from datasets import load_dataset
+dataset = load_dataset("csv", data_files="my_file.csv")
+
+dataset = load_dataset("csv", data_files=["my_file_1.csv", "my_file_2.csv", "my_file_3.csv"])
